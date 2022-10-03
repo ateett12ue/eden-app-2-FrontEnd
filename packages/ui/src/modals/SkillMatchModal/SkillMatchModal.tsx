@@ -4,15 +4,15 @@ import { useState } from "react";
 import { Maybe, RoleType, TeamType } from "@eden/package-graphql/generated";
 
 export interface SkillMatchModalProps {
-  isModalOpen: boolean;
-  chartData: Array<any>;
-  budget: number;
-  avaiability: number;
-  projectCost: string;
-  yourCost: string;
-  projectHr: number;
-  yourHr: number;
-  matchingPercentage: number;
+  isModalOpen?: boolean;
+  chartData?: Array<any>;
+  budget?: number;
+  avaiability?: number;
+  projectCost?: string;
+  yourCost?: string;
+  projectHr?: number;
+  yourHr?: number;
+  matchingPercentage?: number;
 }
 export const SkillMatchModal: React.FC<SkillMatchModalProps> = ({
   isModalOpen,
